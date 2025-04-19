@@ -1,0 +1,19 @@
+# requirements.txt
+
+Flask>=2.0 # For the web server
+Flask-Cors # For CORS support
+
+numpy
+Pillow>=9.0
+annoy # For Annoy index
+
+# Choose ONE of the following TensorFlow options:
+
+# Option A: Full TensorFlow (includes TFLite Interpreter)
+tensorflow>=2.0 # For full TensorFlow (includes TFLite Interpreter)
+
+# Option B: TFLite Runtime only (much smaller, recommended for deployment)
+# tflite_runtime
+
+# optional For downloading datasets from Kaggle
+# opendatasets>=0.1.18 

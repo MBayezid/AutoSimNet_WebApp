@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Recommendation Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Similar Image Finder</h1>
+
+    <p>Upload an image to find visually similar items:</p>
+
+    <div>
+        <input type="file" id="imageUpload" accept="image/png, image/jpeg">
+        <button id="recommendBtn">Get Recommendations</button>
+    </div>
+
+    <div id="status" class="status-message">
+        </div>
+
+    <h2>Recommendations:</h2>
+    <div id="results" class="results-grid">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

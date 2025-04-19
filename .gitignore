@@ -1,0 +1,14 @@
+.env
+/env
+
+
+test.ipynb
+download_data_sets.py
+test_api.ipynb 
+
+# Folders
+/static/fashion-product-images-small/images
+/model
+/uploads
+/data
+
