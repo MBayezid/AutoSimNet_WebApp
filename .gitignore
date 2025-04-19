@@ -1,4 +1,8 @@
 .env
+.keras
+.vscode
+/model/full_model/20250411-135311_fashion_autoencoder.keras
+/model/full_model/metadata.json
 /env
 
 
@@ -7,8 +11,9 @@ download_data_sets.py
 test_api.ipynb 
 
 # Folders
-/static/fashion-product-images-small/images
-/model
-/uploads
-/data
+/static/fashion-product-images-small/
 
+# /uploads
+# /data
+
+# C:\Users\CEDP\Documents\GitHub\AutoSimNet Web\data/fashion-product-images-small-annoy-embeddings.ann
